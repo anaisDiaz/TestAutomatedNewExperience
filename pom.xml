@@ -16,9 +16,9 @@
         <serenity.cucumber.version>2.1.2</serenity.cucumber.version>
         <cucumber.version>4.8.1</cucumber.version>
         <encoding>UTF-8</encoding>
-        <tags></tags>
+        <tags>1</tags>
         <parallel.tests>4</parallel.tests>
-        <webdriver.base.url></webdriver.base.url>
+        <webdriver.base.url>http://automationpractice.com/</webdriver.base.url>
     </properties>
 
     <repositories>
@@ -173,7 +173,7 @@
                 <artifactId>serenity-maven-plugin</artifactId>
                 <version>${serenity.maven.version}</version>
                 <configuration>
-                  <tags>${tags}</tags>
+                    <tags>${tags}</tags>
                 </configuration>
                 <executions>
                     <execution>

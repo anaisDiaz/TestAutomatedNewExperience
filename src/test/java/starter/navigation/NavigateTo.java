@@ -8,7 +8,15 @@ public class NavigateTo {
 
     public static Performable theDuckDuckGoHomePage() {
         return Task.where("{0} opens the DuckDuckGo home page",
-                Open.browserOn().the(DuckDuckGoHomePage.class)
+                Open.browserOn().the(accountPage.class)
         );
     }
+
+    public static Performable theRegisterPage() {
+        return Task.where("{0} opens the DuckDuckGo home page",
+                Open.browserOn().the(registerPage.class)
+        );
+    }
+
+
 }
